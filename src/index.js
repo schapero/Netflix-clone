@@ -5,9 +5,10 @@ import reportWebVitals from './reportWebVitals';
 import {GlobalStyles} from './global-styles';
 import 'normalize.css';
 
-ReactDOM.render(<>
-<GlobalStyles />
-<App />
+ReactDOM.render(
+<>
+  <GlobalStyles />
+  <App />
 </> , document.getElementById('root'));
 
 reportWebVitals();
