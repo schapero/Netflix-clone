@@ -4,7 +4,7 @@ import 'firebase/auth';
 
 
 const config ={
-    apiKey: "AIzaSyCspSn8Ye5sCn9vcBNALMYNjyhNrr5oZvU",
+    apiKey: process.env.REACT_APP_SECRET_KEY,
     authDomain: "netflix-clone-d7c66.firebaseapp.com",
     databaseURL: 'https://netflix-clone-d7c66.firebaseio.com',
     projectId: "netflix-clone-d7c66",
